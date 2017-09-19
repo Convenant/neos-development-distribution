@@ -16,9 +16,13 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos-development-collection": "@dev",
-        "neos/flow-development-collection": "@dev",
+        "neos/neos-development-collection": "dev-event-sourced as dev-master",
+        "neos/flow-development-collection": "dev-master as 4.2.x-dev",
         "neos/demo": "@dev",
+
+        "neos/arboretum": "@dev",
+        "neos/arboretum-doctrinedbaladapter": "@dev",
+        "neos/event-sourcing": "@dev",
 
         "neos/neos-ui": "@dev",
         "neos/neos-ui-compiled": "@dev",
