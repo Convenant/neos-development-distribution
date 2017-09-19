@@ -20,8 +20,6 @@
         "neos/flow-development-collection": "dev-master as 4.2.x-dev",
         "neos/demo": "@dev",
 
-        "neos/arboretum": "@dev",
-        "neos/arboretum-doctrinedbaladapter": "@dev",
         "neos/event-sourcing": "@dev",
 
         "neos/neos-ui": "@dev",
