@@ -17,8 +17,8 @@
     },
     "require": {
         "neos/neos-development-collection": "dev-event-sourced as dev-master",
-        "neos/flow-development-collection": "dev-master as 4.2.x-dev",
-        "neos/demo": "@dev",
+        "neos/flow-development-collection": "dev-event-sourced as dev-master",
+        "neos/demo": "dev-event-sourced as dev-master",
 
         "neos/event-sourcing": "@dev",
 
