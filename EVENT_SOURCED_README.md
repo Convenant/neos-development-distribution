@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+**PREREQUISITES**: You need Mariadb at least 10.2.2; as we need recursive CTEs!
+
 - checkout [neos/neos-development-collection](https://github.com/neos/neos-development-collection/) with branch `event-sourced`
 - run `composer update` in the checked out folder.
   - This will check out the `neos-development-collection` on the `event-sourced`-branch

@@ -22,7 +22,7 @@
 
         "neos/event-sourcing": "@dev",
 
-        "neos/neos-ui": "@dev",
+        "neos/neos-ui": "dev-event-sourced as dev-master",
         "neos/neos-ui-compiled": "@dev",
 
         "neos/party": "@dev",
