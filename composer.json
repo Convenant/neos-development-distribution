@@ -36,7 +36,9 @@
         "mikey179/vfsstream": "~1.6",
         "phpunit/phpunit": "~6.0.0",
         "symfony/css-selector": "~2.0",
-        "neos/behat": "dev-master"
+        "neos/behat": "dev-master",
+        "sandstorm/plumber": "dev-master",
+        "sandstorm/phpprofiler": "dev-master"
     },
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
