@@ -48,3 +48,13 @@
 - `./flow doctrine:migrate`
 - `./flow eventstore:setupall`
 - `./flow contentrepositorymigrate:run`
+
+## Common Problems
+If you have unpublished changes
+You will not be able to login into the backend.
+
+Execute this query to delete all nodedata which isn't in the live workspace:
+```
+SET foreign_key_checks = 0;
+DELETE FROM neos_contentrepository_domain_model_nodedata where workspace != "live"
+```
