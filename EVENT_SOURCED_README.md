@@ -1,5 +1,18 @@
 # Developing Event Sourced Neos Content Repository (README)
 
+# OBSOLETE: PLEASE GO TO https://github.com/neos/contentrepository-development-collection instead
+
+----
+----
+----
+----
+----
+----
+----
+----
+----
+
+
 ## Getting Started
 
 **PREREQUISITES**: You need Mariadb at least 10.2.2; as we need recursive CTEs!
